@@ -1,3 +1,7 @@
+.content{
+  height: 60px;
+}
+
 #red{
     background-color:red;
 }
@@ -20,16 +24,13 @@
 @media (max-width: 600px){
     .container {
         display: grid;
-        grid-template-columns: 600px;
-        grid-template-rows: 80px;
-        padding: 10px;
+        grid-template-columns: 300px;
       }
       
       .container > div {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        padding: 20px 0;
-        font-size: 30px;
+        font-size: 10px;
       }
 }
 
@@ -37,13 +38,12 @@
     .container {
         display: grid;
         grid-template-columns:300px 300px ;
-        padding: 10px;
       }
       
       .container > div {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        font-size: 30px;
+        font-size: 10px;
       }
 }
 
@@ -51,12 +51,11 @@
     .container {
         display: grid;
         grid-template-columns:300px 300px 300px ;
-        padding: 10px;
       }
       
       .container > div {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        font-size: 30px;
+        font-size: 10px;
       }
 }
